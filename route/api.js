@@ -1,0 +1,27 @@
+const API_ENDPOINTS = {
+    patientAuthIndex: "/api/patient/auth/index",
+    patientAuthSignup: "/api/patient/auth/signup",
+    patientAuthLogin: "/api/patient/auth/login",
+    patientAuthLogout: "/api/patient/auth/logout",
+    patientAuthChangePassword: "/api/patient/auth/change_password",
+    patientIndex: "/api/patient/index",
+    patientSignupDetails: "/api/patient/signup/patient_details",
+    patientProfile: "/api/patient/profile",
+    patientProfileUpdate: "/api/patient/profile/update",
+    patientProfileUpload: "/api/patient/profile/upload",
+    patientViewProfileImage: "/api/patient/profile/view_profile_image",
+    patientCreateAppointment: "/api/patient/appointment/create",
+    patientUpcomingAppointment: "/api/patient/appointment",
+    patientAllAppointmentList: "/api/patient/appointment/list",
+    patientShowMedicalRecords: "/api/patient/medical_record/",
+    patientForgetPassword: "/api/patient/forget_password",
+    patientOTP: "/api/patient/otp",
+    navbarInfo: "/api/patient/navbar_info",
+    patient_all_medical_reports: "/api/patient/medical_record/list",
+    patient_create_payment: "/api/patient/payment/create",
+    patient_all_payment: "/api/patient/payment/list",
+    patient_create_feedback: "/api/patient/feedback/create",
+    patient_delete_appointment: "/api/patient/appointment/delete/",
+};
+
+export default API_ENDPOINTS;
